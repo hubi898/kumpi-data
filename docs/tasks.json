@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "aa28ba0e-e8f0-4c43-ba83-f10de0624b81",
+      "title": "Weekly shop list",
+      "owner": "shared",
+      "status": "open",
+      "scheduledAt": null,
+      "createdAt": "2026-10-31T11:20:28.722608+00:00",
+      "updatedAt": "2026-10-31T11:20:28.722608+00:00"
+    },
+    {
+      "id": "f792d8f1-d991-4134-9483-1ef340a33009",
+      "title": "Water plants",
+      "owner": "anni",
+      "status": "open",
+      "scheduledAt": null,
+      "createdAt": "2026-10-31T11:20:28.722608+00:00",
+      "updatedAt": "2026-10-31T11:20:28.722608+00:00"
+    },
+    {
+      "id": "90195eb6-6f97-4566-8f34-b39da326bc00",
+      "title": "Charge robot vacuum",
+      "owner": "david",
+      "status": "open",
+      "scheduledAt": null,
+      "createdAt": "2026-10-31T11:20:28.722608+00:00",
+      "updatedAt": "2026-10-31T11:20:28.722608+00:00"
+    }
+  ]
+}

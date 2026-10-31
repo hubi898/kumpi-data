@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Kumpi data · Tasks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="plan.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="eyebrow">Shared planner</p>
+      <h1>Kumpi data</h1>
+      <p class="lede">Dávid & Anni task tracker — works from anywhere. The TV reads the same list.</p>
+    </header>
+
+    <form id="form" class="card">
+      <label>
+        Task
+        <input id="title" name="title" required placeholder="Buy oat milk" autocomplete="off" />
+      </label>
+      <label>
+        Who
+        <select id="owner" name="owner">
+          <option value="shared">Shared</option>
+          <option value="david">Dávid</option>
+          <option value="anni">Anni</option>
+        </select>
+      </label>
+      <label>
+        Schedule (optional)
+        <input id="scheduledAt" name="scheduledAt" type="datetime-local" />
+      </label>
+      <button type="submit">Add task</button>
+    </form>
+
+    <section class="lists">
+      <div class="card">
+        <h2>Dávid</h2>
+        <ul id="list-david"></ul>
+      </div>
+      <div class="card">
+        <h2>Anni</h2>
+        <ul id="list-anni"></ul>
+      </div>
+      <div class="card">
+        <h2>Shared</h2>
+        <ul id="list-shared"></ul>
+      </div>
+    </section>
+
+    <p id="status" class="status-line">Loading…</p>
+  </main>
+  <script src="config.js"></script>
+  <script src="plan.js"></script>
+</body>
+</html>
